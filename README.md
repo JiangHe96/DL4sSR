@@ -1,5 +1,4 @@
 # DL4sSR
-Benchmark for a paper submitted to Information Fusion
-Title：Spectral super-resolution meets deep learning: achievements and challenges
+Benchmark for the paper entitled as "Spectral super-resolution meets deep learning: achievements and challenges" published in Information fusion.
 
-Coming soon！
+Coming soon!

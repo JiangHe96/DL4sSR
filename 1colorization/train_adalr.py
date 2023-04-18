@@ -15,7 +15,7 @@ sys.path.append("..")
 from model import model_generator
 
 # Training
-parser = argparse.ArgumentParser(description="PyTorch DL4sSR")
+parser = argparse.ArgumentParser(description="DL4sSR Colorization Toolbox")
 parser.add_argument("--batchSize", type=int, default=1, help="Training batch size")
 parser.add_argument("--accumulation-steps", type=int, default=1, help="Training batch size")
 parser.add_argument("--nEpochs", type=int, default=200, help="Number of epochs to train")
