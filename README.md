@@ -34,7 +34,9 @@ The `./3SCI/mask.mat` is the mask used in degradation. Training dataset can be d
 Please put the traning dataset into `./3SCI/`, and name it as `26train_256_enhanced.h5`.
 
 ## Model Zoos
-We have collected some classical spectral super-resolution 
+We have collected some classical spectral super-resolution algorithms, including DenseUnet [42](Learned spectral super-resolution), CanNet [45], HSCNN+ [50], sRCNN [53], AWAN
+[60], FMNet [69], HRNet [70], HSRnet [71], HSACS [73], GDNet [77], and SSDCN [79]. 
+
 ### Your Model
 If you want to run your own models with this benchmark, you should put your model `xxxxx.py` into the file `models`. And then, you should define your model in specific application. For example, if you want to run your model in spectral recovery, please define your model in `./2SR/model.py`.
 
