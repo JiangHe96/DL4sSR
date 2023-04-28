@@ -3,7 +3,7 @@
 
 * Benchmark about deep learning-based spectral super-resolution algorithms, including the workflows of spectral recovery, colorization, and spectral compressive imaging. 
 
-<div align=center><img src="./three" align=center width="360px"/></div>
+<div align=center><img src="./supplementary4github/three applications.png" align=center width="720px"/></div>
 
 
 
