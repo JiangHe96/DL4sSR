@@ -59,8 +59,8 @@ Please cite:
 title={Spectral super-resolution meets deep learning: achievements and challenges},
 author={He, Jiang and Yuan, Qiangqiang and Li, Jie and Xiao, Yi and Liu, Denghong and Shen, Huanfeng and Zhang, Liangpei},
 journal={Information Fusion},
-volume={},
-pages={},
+volume={97},
+pages={101812},
 year={2023},
 }
 ```
