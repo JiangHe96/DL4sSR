@@ -47,21 +47,35 @@ The code has been tested on PyTorch 1.6.
 ### Spectral recovery
 We improved our implementation inspired by [MST++](https://github.com/caiyuanhao1998/MST-plus-plus).
 
-For training, you should run `train.py` at the path `.\2SR` using `python train_adalr.py --method HSRnet --batchSize 2 --gpus 0`. More details can be found in the help of 'argparse' in `train.py`.
+For training, you should run `train.py` at the path `.\2SR`.
+Command: `python train_adalr.py --method HSRnet --batchSize 2 --gpus 0`
+More details can be found in the help of 'argparse' in `train.py`.
 
-After training, you can run `test.py` to obtain the testing results using using `python demo_try.py -- model CanNet --name CanNet_b8_adalr0.0008 --time 2023_04_17_23_09_36 --epoch 200 --gpus 0 --data_root dataset/`. 'time' and 'name' can be found in the `.\2SR\checkpoint\`.
+After training, you can run `test.py` to obtain the testing results.
+Command: `python demo_try.py -- model CanNet --name CanNet_b8_adalr0.0008 --time 2023_04_17_23_09_36 --epoch 200 --gpus 0 --data_root dataset/`
+'time' and 'name' can be found in the `.\2SR\checkpoint\`.
 
 ### Colorization
-For training, you should run `train_adalr.py` at the path `.\1colorization` using `python train_adalr.py --method HSRnet_color --batchSize 2 --gpus 0`. More details can be found in the help of 'argparse' in `train_adalr.py`.
+For training, you should run `train_adalr.py` at the path `.\1colorization`.
+Command: `python train_adalr.py --method HSRnet_color --batchSize 2 --gpus 0`. 
+More details can be found in the help of 'argparse' in `train_adalr.py`.
 
-After training, you can run `demo_try.py` to obtain the testing results using using `python demo_try.py --name CanNet_10_b8_adam_L1loss_adalr0.0004 --scale 1 --gpus 0`. 'scale' is used to calculate ERGAS, which is the spatial resolution ratio. Notice: you should change the 'bestepoch' in `demo_try.py` or just change 'path' with your checkpoint path.
+After training, you can run `demo_try.py` to obtain the testing results.
+Command: `python demo_try.py --name CanNet_10_b8_adam_L1loss_adalr0.0004 --scale 1 --gpus 0`. 
+'scale' is used to calculate ERGAS, which is the spatial resolution ratio. Notice: you should change the 'bestepoch' in `demo_try.py` or just change 'path' with your checkpoint path.
 
 ### Spectral compressive imaging
-For the common training, you should run `train.py` at the path `.\3SCI` using `python train.py --method SSDCN --batchSize 2 --gpus 0`. More details can be found in the help of 'argparse' in `train.py`.
+For the common training, you should run `train.py` at the path `.\3SCI`.
+Command: `python train.py --method SSDCN --batchSize 2 --gpus 0`. 
+More details can be found in the help of 'argparse' in `train.py`.
 
-For the new assumptive spectral imaging in our paper, you should run `train_meaninput.py` at the path `.\3SCI` using `python train_meaninput.py --method CanNet --batchSize 2 --gpus 0`. More details can be found in the help of 'argparse' in `train_meaninput.py`. Before training, you should download the new training data set `26train_256_enhanced.h5`.
+For the new assumptive spectral imaging in our paper, you should run `train_meaninput.py` at the path `.\3SCI`.
+Command: `python train_meaninput.py --method CanNet --batchSize 2 --gpus 0`. More details can be found in the help of 'argparse' in `train_meaninput.py`. 
+Before training, you should download the new training data set `26train_256_enhanced.h5`.
 
-After training, you can run `test.py` to obtain the testing results using using `python test.py --name FMNet_step10_b1_adam_L1loss_adalr0.0001 --scale 1 --gpus 0`. 'scale' is used to calculate ERGAS, which is the spatial resolution ratio. Notice: the 'test_ite ' is chosen as 200 in this application.
+After training, you can run `test.py` to obtain the testing results.
+Command: `python test.py --name FMNet_step10_b1_adam_L1loss_adalr0.0001 --scale 1 --gpus 0`. 
+'scale' is used to calculate ERGAS, which is the spatial resolution ratio. Notice: the 'test_ite ' is chosen as 200 in this application.
 
 ## Reference
 Please cite: 
