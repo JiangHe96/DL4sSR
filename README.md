@@ -49,7 +49,7 @@ We improved our implementation inspired by [MST++](https://github.com/caiyuanhao
 
 For training, you should run `train.py` at the path `.\2SR`.
 
-  `python train_adalr.py --method HSRnet --batchSize 2 --gpus 0`
+~~`python train_adalr.py --method HSRnet --batchSize 2 --gpus 0`
 
 More details can be found in the help of 'argparse' in `train.py`.
 
