@@ -1,7 +1,7 @@
 # Spectral super-resolution meets deep learning: achievements and challenges
 
 [Jiang He](http://jianghe96.github.io/), [Qiangqiang Yuan](http://qqyuan.users.sgg.whu.edu.cn/), [Jie Li](http://jli89.users.sgg.whu.edu.cn/), [Yi Xiao](https://xy-boy.github.io/), 
-Denghong Liu, [Huanfeng Shen](http://sendimage.whu.edu.cn/shenhf/), 
+[Denghong Liu](https://scholar.google.com/citations?user=4ODZjwKqGksC&hl=zh-CN&oi=sra), [Huanfeng Shen](http://sendimage.whu.edu.cn/shenhf/), 
 and [Liangpei Zhang](http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html), Wuhan University
 * Codes for the paper entitled as "Spectral super-resolution meets deep learning: achievements and challenges" published in Information fusion. 
 
